@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import ItemDetail from '../ItemDetail/ItemDetail'
 import './item.scss'
 const Item = (prod) => {
+
+
+
+  
+
   return (
     <Link to={`/products/${prod.id}`} className='card'>
       <div className='img-container'>
